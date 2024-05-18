@@ -1,0 +1,423 @@
+html{
+    background-color: #1C1F2B;
+    scroll-behavior: smooth;
+    font-family: 'Saira';
+    overflow-x: hidden; 
+}
+.buttonA{
+    border: none;
+    font-family: 'Saira';
+    font-size: 20px;
+    background: transparent;
+    padding: 10px 30px;
+    position: relative;
+    overflow: hidden;
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        background-color: #FDDCC5;
+        transition: transform 0.15s;
+        transform: translateY(100%);
+        z-index: -1;
+    }
+    &:hover::after {
+        transform: translateY(0);
+    }
+}
+.header{
+    border: solid 1px #FDDCC5;
+    max-width: 1920px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: #FDDCC5;
+    z-index: 2;
+    
+}
+.buttonA:hover a{
+    color: #1C1F2B;
+    z-index: 2;
+}
+nav{
+    text-align: center;
+    margin-top: none;
+}
+.Nome{
+    color: #FDDCC5;
+    text-align: center;
+}
+.NomeLine{
+    border: solid 1px #FDDCC5;
+    width: 1540px;
+}
+.perfil{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.foto{
+    text-align: center;
+}
+.dados{
+    position: absolute;
+    height: 316px;
+    width: 658px;
+    color: #FDDCC5;
+    top: 450px;
+    left: 270px;
+    font-size: 30px;
+}
+.info{
+    margin: auto;
+}
+.infoLine{
+    height: 423px;
+    width: 1px;
+    border:solid 1px #FDDCC5;
+    background-color: #FDDCC5;
+    margin: auto;
+    margin-top: 65px;
+}
+.textinho{
+    position: absolute;
+    height: 405px;
+    width: 593px;
+    color: #FDDCC5;
+    top: 425px;
+    left: 1016px;
+    font-size: 30px;
+    text-align: justify;
+}
+#Educação{
+    background-color: #FDDCC5;
+    height: 812px;
+    max-width: 1920px;
+    position: relative;
+    top: 40px;
+    margin: auto;
+
+}
+.title{
+    color: #1C1F2B;
+    text-align: center;
+    padding-top: 33px;
+}
+.EducationLine{
+    border: solid 1px #1C1F2B;
+    width: 1540px;
+}
+.conteiner{
+    height: 535px;
+    width: 1005px;
+    margin: auto;
+    margin-top: 78px;
+    margin-bottom: 78px;
+}
+.barra{
+    height: 525px;
+    width: 1px;
+    border:solid 1px #1C1F2B;
+    background-color: #1C1F2B;
+    margin: auto;
+    }
+.bolinha1,.bolinha2{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #1C1F2B;
+    border:solid 1px #1C1F2B;
+    position: absolute;
+    z-index: 3;
+}
+.bolinha1{
+    top: 172px;
+    left: 933px;
+}
+.bolinha2{
+    top: 425px;
+    left: 933px;
+}
+.ato1, .ato2{
+    position: absolute;
+    font-size: 30px;
+    color: #1C1F2B;
+}
+.ato1{
+    text-align: right;
+    margin-left: 85px;
+}
+.ato2{
+    top: 440px;
+    left: 980px;}
+#Educação{
+    background-color: #FDDCC5;
+    height: 812px;
+    max-width: 1920px;
+    position: relative;
+    top: 40px;
+    margin: auto;
+
+}
+.title{
+    color: #1C1F2B;
+    text-align: center;
+    padding-top: 33px;
+}
+.EducationLine{
+    border: solid 1px #1C1F2B;
+    width: 1540px;
+}
+.conteiner{
+    height: 535px;
+    width: 1005px;
+    margin: auto;
+    margin-top: 78px;
+    margin-bottom: 78px;
+}
+.barra{
+    height: 525px;
+    width: 1px;
+    border:solid 1px #1C1F2B;
+    background-color: #1C1F2B;
+    margin: auto;
+    }
+.bolinha1,.bolinha2{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #1C1F2B;
+    border:solid 1px #1C1F2B;
+    position: absolute;
+    z-index: 3;
+}
+.bolinha1{
+    top: 172px;
+    left: 933px;
+}
+.bolinha2{
+    top: 425px;
+    left: 933px;
+}
+.ato1, .ato2{
+    position: absolute;
+    font-size: 30px;
+    color: #1C1F2B;
+}
+.ato1{
+    text-align: right;
+    margin-left: 85px;
+}
+.ato2{
+    top: 440px;
+    left: 980px;
+}
+#Experiencias{
+    background-color: #1C1F2B;
+    height: 812px;
+    max-width: 1920px;
+    position: relative;
+    top: 40px;
+    margin: auto;
+
+}
+.title2{
+    color: #FDDCC5;
+    text-align: center;
+    padding-top: 33px;
+}
+.ExperienceLine{
+    border: solid 1px #FDDCC5;
+    width: 1540px;
+}
+.barra2{
+    height: 525px;
+    width: 1px;
+    border:solid 1px #FDDCC5;
+    background-color: #FDDCC5;
+    margin: auto;
+    }
+.bolinha3,.bolinha4{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #FDDCC5;
+    border:solid 1px #FDDCC5;
+    position: absolute;
+    z-index: 3;
+}
+.bolinha3{
+    top: 172px;
+    left: 933px;
+}
+.bolinha4{
+    top: 425px;
+    left: 933px;
+}
+.ato3, .ato4{
+    position: absolute;
+    font-size: 30px;
+    color: #FDDCC5;
+}
+.ato3{
+    text-align: right;
+    margin-left: 35px;
+}
+.ato4{
+    top: 440px;
+    left: 980px;
+}
+#Habilidades{
+    background-color: #FDDCC5;
+    height: 812px;
+    max-width: 1920px;
+    position: relative;
+    top: 40px;
+    margin: auto;
+}
+
+.title3{
+    color: #1c1f2b;
+    text-align: center;
+    padding-top: 33px;
+}
+
+.group1 {
+    width: 1540px;
+    height: 447px;
+    position: absolute;
+    top: 59px;
+    left: 216px;
+}
+
+.habilidades, .figma, .pacoteoffice, .autocad, .sap {
+    color: #1c1f2a;
+    font-family: Saira;
+    position: absolute;
+}
+
+.habilidades {
+    text-align: center;
+    font-size: 40px;
+    top: 59px;
+    left: 876px;
+    width: 220px;
+    height: 63px;
+}
+
+.figma, .pacoteoffice, .autocad, .sap {
+    text-align: left;
+    font-size: 30px;
+}
+
+.figma {
+    top: 190px;
+    left: 466px;
+    width: 87px;
+    height: 47px;
+}
+
+.pacoteoffice {
+    top: 301px;
+    left: 466px;
+    width: 186px;
+    height: 47px;
+}
+
+.autocad {
+    top: 412px;
+    left: 466px;
+    width: 116px;
+    height: 47px;
+}
+
+.sap {
+    top: 190px;
+    left: 1096px;
+    width: 59px;
+    height: 47px;
+}
+
+.HabilitiesLine{
+    border: solid 1px #1C1F2B;
+    width: 1540px;
+}
+
+.rectangle, .rectangle-filled {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    border: 1px solid #1c1f2a;
+    position: absolute;
+}
+
+.rectangle-filled {
+    background-color: #1c1f2a;
+}
+
+.rectangle1 { top: 254px; left: 466px; }
+.rectangle2 { top: 254px; left: 508px; }
+.rectangle3 { top: 254px; left: 550px; }
+.rectangle4 { top: 254px; left: 802px; }
+.rectangle5 { top: 254px; left: 760px; }
+.rectangle6 { top: 254px; left: 844px; }
+.rectangle7 { top: 254px; left: 676px; }
+.rectangle8 { top: 254px; left: 634px; }
+.rectangle9 { top: 254px; left: 718px; }
+.rectangle10 { top: 254px; left: 592px; }
+.rectangle11 { top: 365px; left: 466px; }
+.rectangle12 { top: 365px; left: 508px; }
+.rectangle13 { top: 365px; left: 550px; }
+.rectangle14 { top: 365px; left: 802px; }
+.rectangle15 { top: 365px; left: 760px; }
+.rectangle16 { top: 365px; left: 844px; }
+.rectangle17 { top: 365px; left: 676px; }
+.rectangle18 { top: 365px; left: 634px; }
+.rectangle19 { top: 365px; left: 718px; }
+.rectangle20 { top: 365px; left: 592px; }
+.rectangle21 { top: 476px; left: 466px; }
+.rectangle22 { top: 476px; left: 508px; }
+.rectangle23 { top: 476px; left: 550px; }
+.rectangle24 { top: 476px; left: 802px; }
+.rectangle25 { top: 476px; left: 760px; }
+.rectangle26 { top: 476px; left: 844px; }
+.rectangle27 { top: 476px; left: 676px; }
+.rectangle28 { top: 476px; left: 634px; }
+.rectangle29 { top: 476px; left: 718px; }
+.rectangle30 { top: 476px; left: 592px; }
+.rectangle31 { top: 254px; left: 1096px; }
+.rectangle32 { top: 254px; left: 1138px; }
+.rectangle33 { top: 254px; left: 1180px; }
+.rectangle34 { top: 254px; left: 1432px; }
+.rectangle35 { top: 254px; left: 1390px; }
+.rectangle36 { top: 254px; left: 1474px; }
+.rectangle37 { top: 254px; left: 1306px; }
+.rectangle38 { top: 254px; left: 1264px; }
+.rectangle39 { top: 254px; left: 1348px; }
+.rectangle40 { top: 254px; left: 1222px; }
+
+.rectangle-filled1 { top: 254px; left: 466px; }
+.rectangle-filled2 { top: 254px; left: 508px; }
+.rectangle-filled3 { top: 254px; left: 550px; }
+.rectangle-filled4 { top: 254px; left: 592px; }
+.rectangle-filled5 { top: 365px; left: 466px; }
+.rectangle-filled6 { top: 365px; left: 508px; }
+.rectangle-filled7 { top: 365px; left: 550px; }
+.rectangle-filled8 { top: 365px; left: 592px; }
+.rectangle-filled9 { top: 476px; left: 466px; }
+.rectangle-filled10 { top: 476px; left: 508px; }
+.rectangle-filled11 { top: 476px; left: 550px; }
+.rectangle-filled12 { top: 476px; left: 592px; }
+.rectangle-filled13 { top: 254px; left: 1096px; }
+.rectangle-filled14 { top: 254px; left: 1138px; }
+.rectangle-filled15 { top: 254px; left: 1096px; }
+.rectangle-filled16 { top: 254px; left: 1138px; }
+.rectangle-filled17 { top: 476px; left: 676px; }
+.rectangle-filled18 { top: 476px; left: 634px; }
+.rectangle-filled19 { top: 476px; left: 676px; }
+.rectangle-filled20 { top: 476px; left: 634px; }
